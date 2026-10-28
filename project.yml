@@ -1,0 +1,47 @@
+name: QueerServices
+options:
+  bundleIdPrefix: com.queerservices
+  # Français par défaut : textes système (bouton Apple, Annuler, recherche…) en français.
+  developmentLanguage: fr
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    from: 2.5.0
+
+targets:
+  QueerServices:
+    type: application
+    platform: iOS
+    sources:
+      - QueerServices
+    dependencies:
+      - package: Supabase
+    resources:
+      - path: QueerServices/Resources/reference.json
+    entitlements:
+      path: QueerServices/QueerServices.entitlements
+      properties:
+        com.apple.developer.applesignin:
+          - Default
+        com.apple.developer.in-app-payments:
+          - merchant.com.queerservices.native
+        aps-environment: development
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.queerservices.app
+        MARKETING_VERSION: "3.8"
+        CURRENT_PROJECT_VERSION: "18"
+        SWIFT_VERSION: "5.10"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: QueerServices
+        INFOPLIST_KEY_NSCameraUsageDescription: "Queer Services utilise la caméra pour scanner votre carte bancaire lorsque vous choisissez cette option afin de renseigner vos informations de paiement."
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: WDKQA6DAXP
+        CODE_SIGN_STYLE: Automatic

@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Xcode build output and archives (large binaries, signing profiles)
+build/
+build-archive/
+*.xcarchive
+*.dSYM
+DerivedData/
+
+# Per-user Xcode state
+xcuserdata/
+*.xcuserstate
+
+# Large marketing video
+appstore-marketing/**/*.mov

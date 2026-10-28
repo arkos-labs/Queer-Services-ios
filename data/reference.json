@@ -1,0 +1,574 @@
+{
+  "source": "Supabase projet Queer Services (ovufzlswycrvadckhysi), tables categories et subcategories",
+  "categories": [
+    {
+      "id": "852995f9-9c77-44a7-bd2d-2d1bf56c383a",
+      "label": "Maison & Dépannage",
+      "slug": "maison-depannage",
+      "icon": "Home",
+      "sort_order": 1
+    },
+    {
+      "id": "4d41c510-e1b3-4add-aa0a-b9b66c5be5f2",
+      "label": "Santé & Bien-être",
+      "slug": "sante-bien-etre",
+      "icon": "HeartPulse",
+      "sort_order": 2
+    },
+    {
+      "id": "fbb69e6f-1054-43cd-b211-9f35d4694987",
+      "label": "Professionnels & Administratif",
+      "slug": "professionnels-administratif",
+      "icon": "Briefcase",
+      "sort_order": 3
+    },
+    {
+      "id": "781dbf12-f98d-4ae9-94e9-ea5a1c2f946b",
+      "label": "Shopping & Bonnes adresses",
+      "slug": "shopping-bonnes-adresses",
+      "icon": "ShoppingBag",
+      "sort_order": 4
+    },
+    {
+      "id": "b6cb7ee5-c541-4861-a734-feff9b6e532f",
+      "label": "Services entre particuliers",
+      "slug": "services-entre-particuliers",
+      "icon": "Handshake",
+      "sort_order": 5
+    },
+    {
+      "id": "566b8645-484b-432c-9086-b6f8a613731d",
+      "label": "Voyages & Hébergements",
+      "slug": "voyages-hebergements",
+      "icon": "Plane",
+      "sort_order": 6
+    },
+    {
+      "id": "ef69498f-10bb-4ca0-b594-c78234638a1a",
+      "label": "Communauté & Vie LGBTQ+",
+      "slug": "communaute-vie-lgbtq",
+      "icon": "Users",
+      "sort_order": 7
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "8e5cf9be-4220-4112-b12c-dd09818ce998",
+      "category_slug": "voyages-hebergements",
+      "label": "Hébergement temporaire",
+      "slug": "hebergement-temporaire",
+      "sort_order": 1
+    },
+    {
+      "id": "ba9cca1e-0847-470d-8712-307526e017bf",
+      "category_slug": "voyages-hebergements",
+      "label": "Colocation",
+      "slug": "colocation",
+      "sort_order": 2
+    },
+    {
+      "id": "703441b6-0b26-42ac-9cd3-d69cf2f09ebe",
+      "category_slug": "voyages-hebergements",
+      "label": "Échange de logement",
+      "slug": "echange-maison",
+      "sort_order": 3
+    },
+    {
+      "id": "46180308-9cca-4d11-bf08-52c505340c09",
+      "category_slug": "voyages-hebergements",
+      "label": "Covoiturage",
+      "slug": "covoiturage",
+      "sort_order": 4
+    },
+    {
+      "id": "c202fbd2-7e71-4216-8b09-65fc4f7a10cc",
+      "category_slug": "voyages-hebergements",
+      "label": "Guides locaux",
+      "slug": "guides-locaux",
+      "sort_order": 5
+    },
+    {
+      "id": "f1e6b8e6-033b-400d-b426-becbbd1b3172",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Associations",
+      "slug": "associations",
+      "sort_order": 1
+    },
+    {
+      "id": "6d8e0ec6-ae84-494d-9bbd-370dbc68c3b7",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Marches des Fiertés",
+      "slug": "marches-des-fiertes",
+      "sort_order": 3
+    },
+    {
+      "id": "08ca4d2e-1ba0-4677-a553-04d14c314d4d",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Groupes de parole",
+      "slug": "groupes-de-parole",
+      "sort_order": 4
+    },
+    {
+      "id": "74611e3b-0897-4f63-9120-852c8de405a1",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Centres LGBTQIA+",
+      "slug": "centres-lgbtqia",
+      "sort_order": 5
+    },
+    {
+      "id": "d096cad5-b289-461a-8d23-0be5026833c7",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Lieux inclusifs",
+      "slug": "lieux-inclusifs",
+      "sort_order": 6
+    },
+    {
+      "id": "caf070b2-c57b-4957-afc1-5780544f6f4e",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Recommandations de lieux « safe »",
+      "slug": "lieux-safe",
+      "sort_order": 7
+    },
+    {
+      "id": "55c9b5d9-a6ea-4254-9b08-0ed57de6dc4c",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Signalement d'expériences positives ou négatives",
+      "slug": "signalement-experiences",
+      "sort_order": 8
+    },
+    {
+      "id": "344ac1d6-b700-4f86-90e8-af28e295ac40",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Ressources et numéros utiles",
+      "slug": "ressources-numeros-utiles",
+      "sort_order": 9
+    },
+    {
+      "id": "69f6facb-b7c1-408f-973d-053c143ce0a7",
+      "category_slug": "communaute-vie-lgbtq",
+      "label": "Guides (coming out, droits, santé…)",
+      "slug": "guides",
+      "sort_order": 10
+    },
+    {
+      "id": "34b3edfa-3fb7-47d0-82a1-ce527c3cbb78",
+      "category_slug": "sante-bien-etre",
+      "label": "Médecins généralistes",
+      "slug": "medecins-generalistes",
+      "sort_order": 1
+    },
+    {
+      "id": "b2c50737-3d0c-4593-9b78-a0f6ce3c3257",
+      "category_slug": "sante-bien-etre",
+      "label": "Gynécologues",
+      "slug": "gynecologues",
+      "sort_order": 2
+    },
+    {
+      "id": "38953aaa-944e-425b-896d-341811da01c9",
+      "category_slug": "sante-bien-etre",
+      "label": "Urologues",
+      "slug": "urologues",
+      "sort_order": 3
+    },
+    {
+      "id": "ed8f6454-9a42-4740-a643-220382a1e95a",
+      "category_slug": "sante-bien-etre",
+      "label": "Sages-femmes",
+      "slug": "sages-femmes",
+      "sort_order": 4
+    },
+    {
+      "id": "1376b32b-d711-4e83-a04e-b568c8f1706e",
+      "category_slug": "sante-bien-etre",
+      "label": "Coiffeurs",
+      "slug": "coiffeurs",
+      "sort_order": 4
+    },
+    {
+      "id": "0b5ace1d-a57e-4fb3-add9-a28e420c1f74",
+      "category_slug": "sante-bien-etre",
+      "label": "Tatoueurs",
+      "slug": "tatoueurs",
+      "sort_order": 5
+    },
+    {
+      "id": "5169f0e9-e4f8-4340-982c-d052b2b3823d",
+      "category_slug": "sante-bien-etre",
+      "label": "Psychologues",
+      "slug": "psychologues",
+      "sort_order": 5
+    },
+    {
+      "id": "d7d996c6-454e-4e4b-8c80-e9cf4bab1460",
+      "category_slug": "sante-bien-etre",
+      "label": "Psychiatres",
+      "slug": "psychiatres",
+      "sort_order": 6
+    },
+    {
+      "id": "e4c652fe-f4c3-4c2c-9f0e-4b2c07f78916",
+      "category_slug": "sante-bien-etre",
+      "label": "Dentistes",
+      "slug": "dentistes",
+      "sort_order": 7
+    },
+    {
+      "id": "b89391e6-79b0-435e-bf2c-6bb49fc467b9",
+      "category_slug": "sante-bien-etre",
+      "label": "Kinés",
+      "slug": "kinesitherapeutes",
+      "sort_order": 8
+    },
+    {
+      "id": "497b5620-3320-4993-922d-a50c89204825",
+      "category_slug": "sante-bien-etre",
+      "label": "Salle de sport",
+      "slug": "salle-de-sport",
+      "sort_order": 8
+    },
+    {
+      "id": "7241a8df-3b7a-419c-8c79-d641e46239ac",
+      "category_slug": "sante-bien-etre",
+      "label": "Ostéopathes",
+      "slug": "osteopathes",
+      "sort_order": 9
+    },
+    {
+      "id": "a0266b2b-0360-41d7-8848-c92cf02ddcb9",
+      "category_slug": "sante-bien-etre",
+      "label": "Nutritionnistes",
+      "slug": "nutritionnistes",
+      "sort_order": 10
+    },
+    {
+      "id": "5716dc31-a472-4d4b-9647-5e6a65ae97e8",
+      "category_slug": "sante-bien-etre",
+      "label": "Centres de dépistage",
+      "slug": "centres-depistage",
+      "sort_order": 11
+    },
+    {
+      "id": "82275499-ad58-4bea-9496-c4bb74235648",
+      "category_slug": "sante-bien-etre",
+      "label": "Coachs sportifs",
+      "slug": "coachs-sportifs",
+      "sort_order": 12
+    },
+    {
+      "id": "0151257b-bf26-4027-9f85-4b42e83d2afa",
+      "category_slug": "sante-bien-etre",
+      "label": "Massages",
+      "slug": "massages",
+      "sort_order": 13
+    },
+    {
+      "id": "e9503a63-ab90-4b28-9899-90912b243d03",
+      "category_slug": "sante-bien-etre",
+      "label": "Esthétique",
+      "slug": "esthetique",
+      "sort_order": 14
+    },
+    {
+      "id": "852995f9-9c77-44a7-bd2d-2d1bf56c383a",
+      "category_slug": "maison-depannage",
+      "label": "Montage de meubles",
+      "slug": "montage-meubles",
+      "sort_order": 1
+    },
+    {
+      "id": "1cdc338c-b132-4e0b-bd9c-017c4fe68749",
+      "category_slug": "maison-depannage",
+      "label": "Bricolage",
+      "slug": "bricolage",
+      "sort_order": 2
+    },
+    {
+      "id": "b96d4ec8-6bb8-46b7-a7ea-52af0a1f3ceb",
+      "category_slug": "maison-depannage",
+      "label": "Plomberie",
+      "slug": "plomberie",
+      "sort_order": 3
+    },
+    {
+      "id": "aa2576e2-86f3-466d-8746-fe4519c4d008",
+      "category_slug": "maison-depannage",
+      "label": "Électricité",
+      "slug": "electricite",
+      "sort_order": 4
+    },
+    {
+      "id": "2990a3e2-2e20-491e-93f7-2cd43c1a1759",
+      "category_slug": "maison-depannage",
+      "label": "Serrurerie",
+      "slug": "serrurerie",
+      "sort_order": 5
+    },
+    {
+      "id": "3d7a4559-33a6-4767-8e94-a88f326870f7",
+      "category_slug": "maison-depannage",
+      "label": "Peinture",
+      "slug": "peinture",
+      "sort_order": 6
+    },
+    {
+      "id": "f6dd60ab-be2d-4c2b-bc2a-fd701c12eb13",
+      "category_slug": "maison-depannage",
+      "label": "Jardinage",
+      "slug": "jardinage",
+      "sort_order": 7
+    },
+    {
+      "id": "2b367ef2-b764-437d-ac2c-ebf956552586",
+      "category_slug": "maison-depannage",
+      "label": "Ménage",
+      "slug": "menage",
+      "sort_order": 8
+    },
+    {
+      "id": "6bd7aa3f-c931-4b6c-89b4-c2be093965ce",
+      "category_slug": "maison-depannage",
+      "label": "Déménagement",
+      "slug": "demenagement",
+      "sort_order": 9
+    },
+    {
+      "id": "5650c3a3-4c4d-4145-ac1f-f594d5d899b4",
+      "category_slug": "maison-depannage",
+      "label": "Nettoyage",
+      "slug": "nettoyage",
+      "sort_order": 10
+    },
+    {
+      "id": "f5265422-92fd-489c-bc3d-4602aa1405d5",
+      "category_slug": "maison-depannage",
+      "label": "Informatique à domicile",
+      "slug": "informatique-domicile",
+      "sort_order": 11
+    },
+    {
+      "id": "1bf86287-13af-489c-9d09-c80e4cd2e27f",
+      "category_slug": "professionnels-administratif",
+      "label": "Avocats",
+      "slug": "avocats",
+      "sort_order": 1
+    },
+    {
+      "id": "f29217da-524f-4c7b-bf06-a3ec341c9d33",
+      "category_slug": "professionnels-administratif",
+      "label": "Notaires",
+      "slug": "notaires",
+      "sort_order": 2
+    },
+    {
+      "id": "fb00899c-22c7-4a27-b626-349072690ffe",
+      "category_slug": "professionnels-administratif",
+      "label": "Experts-comptables",
+      "slug": "experts-comptables",
+      "sort_order": 3
+    },
+    {
+      "id": "7615a44a-90c5-456e-a4b9-8c32bc094aa0",
+      "category_slug": "professionnels-administratif",
+      "label": "Banques",
+      "slug": "banques",
+      "sort_order": 4
+    },
+    {
+      "id": "6691f39b-0e18-4288-a192-8668aca4ef56",
+      "category_slug": "professionnels-administratif",
+      "label": "Assurances",
+      "slug": "assurances",
+      "sort_order": 5
+    },
+    {
+      "id": "45218773-1890-40a2-b0ac-0d3216154729",
+      "category_slug": "professionnels-administratif",
+      "label": "Courtiers",
+      "slug": "courtiers",
+      "sort_order": 6
+    },
+    {
+      "id": "f7e1592e-cbf5-43e3-b0e6-b523e6a3d380",
+      "category_slug": "professionnels-administratif",
+      "label": "Immobilier",
+      "slug": "immobilier",
+      "sort_order": 7
+    },
+    {
+      "id": "2a77ced2-e680-4320-9f7c-b751caee94f8",
+      "category_slug": "professionnels-administratif",
+      "label": "Architectes",
+      "slug": "architectes",
+      "sort_order": 8
+    },
+    {
+      "id": "d61cf64e-02e2-465a-ab5b-b77ba2233af2",
+      "category_slug": "professionnels-administratif",
+      "label": "Traducteurs",
+      "slug": "traducteurs",
+      "sort_order": 9
+    },
+    {
+      "id": "947c43be-d1fc-4288-9a54-01811ccbf430",
+      "category_slug": "professionnels-administratif",
+      "label": "Photographes",
+      "slug": "photographes",
+      "sort_order": 10
+    },
+    {
+      "id": "e774f73b-cca3-4bee-93eb-6f7e864d7ded",
+      "category_slug": "professionnels-administratif",
+      "label": "Coachs carrière",
+      "slug": "coachs-carriere",
+      "sort_order": 11
+    },
+    {
+      "id": "6cd1e6b5-e7a7-4579-a9cf-54e1b061a281",
+      "category_slug": "professionnels-administratif",
+      "label": "CV et recrutement",
+      "slug": "cv-recrutement",
+      "sort_order": 12
+    },
+    {
+      "id": "5595ff58-6f36-4ea4-8cf7-b135258d949e",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Restaurants",
+      "slug": "restaurants",
+      "sort_order": 1
+    },
+    {
+      "id": "7f1a781f-2565-4111-8f8d-08c5638b3ecb",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Bars",
+      "slug": "bars",
+      "sort_order": 2
+    },
+    {
+      "id": "797f8f2b-f3a6-458c-b103-13ea77d23976",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Cafés",
+      "slug": "cafes",
+      "sort_order": 3
+    },
+    {
+      "id": "3082dce2-65bc-4b33-af03-9f69acb715cc",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Boutiques",
+      "slug": "boutiques",
+      "sort_order": 6
+    },
+    {
+      "id": "bb03e8f6-2a83-4203-98bb-2843089fac85",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Hôtels",
+      "slug": "hotels",
+      "sort_order": 7
+    },
+    {
+      "id": "eea4bd34-ace7-47f6-a7c2-16a0f0fac204",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Animaleries",
+      "slug": "animaleries",
+      "sort_order": 9
+    },
+    {
+      "id": "d6028274-d299-4953-8e21-53a4f3b9ad8c",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Fleuristes",
+      "slug": "fleuristes",
+      "sort_order": 10
+    },
+    {
+      "id": "24bb94ae-84ec-4666-ac27-a0882c88da64",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Librairies",
+      "slug": "librairies",
+      "sort_order": 11
+    },
+    {
+      "id": "d657b5e2-a75b-4082-83be-13fab8464407",
+      "category_slug": "shopping-bonnes-adresses",
+      "label": "Commerces LGBTQ+ ou alliés",
+      "slug": "commerces-lgbtq-allies",
+      "sort_order": 12
+    },
+    {
+      "id": "229d9a21-931f-4d4a-b0b9-3e7213279ca4",
+      "category_slug": "services-entre-particuliers",
+      "label": "Baby-sitting",
+      "slug": "baby-sitting",
+      "sort_order": 1
+    },
+    {
+      "id": "58f47272-2b22-4f14-88f3-f09ea0680280",
+      "category_slug": "services-entre-particuliers",
+      "label": "Pet-sitting",
+      "slug": "pet-sitting",
+      "sort_order": 2
+    },
+    {
+      "id": "4476ff2d-5bad-4711-a57b-20e7127db55e",
+      "category_slug": "services-entre-particuliers",
+      "label": "Cours particuliers",
+      "slug": "cours-particuliers",
+      "sort_order": 3
+    },
+    {
+      "id": "1ab24e77-8f1d-4a6d-9bd3-cec7fe3f5b7a",
+      "category_slug": "services-entre-particuliers",
+      "label": "Réparations",
+      "slug": "reparations",
+      "sort_order": 4
+    },
+    {
+      "id": "1c981517-1e72-4c2f-aac3-9dcc5e637063",
+      "category_slug": "services-entre-particuliers",
+      "label": "Couture",
+      "slug": "couture",
+      "sort_order": 5
+    },
+    {
+      "id": "80c934af-3bf2-459c-b6a1-76ce6a1dbdac",
+      "category_slug": "services-entre-particuliers",
+      "label": "Livraison",
+      "slug": "livraison",
+      "sort_order": 6
+    },
+    {
+      "id": "8f5f3f52-5f3e-48ff-a89d-ef585d33107d",
+      "category_slug": "services-entre-particuliers",
+      "label": "Transport",
+      "slug": "transport",
+      "sort_order": 7
+    },
+    {
+      "id": "def3594d-127e-45fc-a854-a7b9e81cf537",
+      "category_slug": "services-entre-particuliers",
+      "label": "Aide administrative",
+      "slug": "aide-administrative",
+      "sort_order": 8
+    },
+    {
+      "id": "6a676442-dc50-4033-8f5b-091f2646d92a",
+      "category_slug": "services-entre-particuliers",
+      "label": "Garde de maison",
+      "slug": "garde-de-maison",
+      "sort_order": 9
+    },
+    {
+      "id": "3fccdf0d-9d87-4037-aa1a-0ccdf5c0db79",
+      "category_slug": "services-entre-particuliers",
+      "label": "Cuisine",
+      "slug": "cuisine",
+      "sort_order": 10
+    },
+    {
+      "id": "cd1a1798-4be9-4385-ac38-e634c4d1de4c",
+      "category_slug": "services-entre-particuliers",
+      "label": "Aide aux personnes âgées",
+      "slug": "aide-personnes-agees",
+      "sort_order": 11
+    }
+  ]
+}
